@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import React from "react";
-import { motion } from "framer-motion";
-import { useSectionInView } from "@/common/lib/hooks";
-import SubmitBtn from "./_components/submit-btn";
-import SectionHeading from "@/common/components/shared/section-heading";
-import toast from "react-hot-toast";
-import { sendEmail } from "@/common/utils/actions/send-email";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { useSectionInView } from '@/common/lib/hooks';
+import SubmitBtn from './_components/submit-btn';
+import SectionHeading from '@/common/components/shared/section-heading';
+import toast from 'react-hot-toast';
+import { sendEmail } from '@/common/utils/actions/send-email';
 
 export default function Contact() {
-  const { ref } = useSectionInView("contact");
+  const { ref } = useSectionInView('contact');
 
   return (
     <motion.section
@@ -32,10 +32,10 @@ export default function Contact() {
       <SectionHeading>Hit me up!</SectionHeading>
       <div className="w-[min(100%,38rem)] px-4">
         <p className="mb-20 mt-6 text-gray-700 dark:text-white/80">
-          Please contact me directly at{" "}
-          <a className="underline" href="mailto:azimov.workspace@gmail.com">
-            azimov.workspace@gmail.com
-          </a>{" "}
+          Please contact me directly at{' '}
+          <a className="underline" href="mailto:eeshu13@gmail.com">
+            eeshu13@gmail.com
+          </a>{' '}
           or through this form.
         </p>
 
@@ -49,7 +49,7 @@ export default function Contact() {
               return;
             }
 
-            toast.success("Email sent successfully!");
+            toast.success('Email sent successfully!');
           }}
         >
           <input

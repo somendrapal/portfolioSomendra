@@ -6,8 +6,11 @@ import filedriveImg from '@/../public/images/file-drive.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
 import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
-import portfolioImg from '@/../public/images/portfolio.png';
-import auditMasterImg from '@/../public/images/audit-master.png';
+import Chatbotpage from '@/../public/images/Chatbotpage.jpeg';
+import MTH from '@/../public/images/patient.jpeg';
+import Fhiraa from '@/../public/images/fhiraa.png';
+import SMS from '@/../public/images/sms.png';
+
 import {
   BookIcon,
   BriefcaseBusinessIcon,
@@ -43,25 +46,38 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'WhirrCrew',
-    location: 'Prague, Czechia',
-    description: `Front-end Web Develpoer position. Responsible for implementation of accessible and interactive interface. Working on various projects with AI integration. `,
+    title: 'Mphasis Limited',
+    location: 'Bangalore',
+    description:
+      `• Worked with React.js components, forms, event handling, routing, and state management using Redux.` +
+      '' +
+      `• Translated designs and wireframes into high-quality, maintainable code.` +
+      '' +
+      `• Optimized components for maximum performance across a wide range of web-capable devices and browsers.` +
+      '' +
+      `• Experienced in popular React.js workflows, such as Flux and Redux.`,
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
+    date: 'Sep 2021 - Dec 2022',
   },
   {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. Studying on the faculty of Cyber Security and Software Engineering.`,
+    title: 'Brandconn Digital Group',
+    location: 'Delhi',
+    description: `• Designed & implemented Architecture solutions; contributed in all phases of the development lifecycle
+• Supervised and translated business requirements to Functional requirements, Non-Functional requirements, System Level requirements, Component Level requirements and architecture`,
     icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Present',
+    date: 'Dec 2022 - Dec 2023',
   },
   {
-    title: 'Self-studying',
-    location: 'Czechia',
-    description: `Digging into Programming, Software Engineering and Web Development, picking up a great expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
+    title: 'Screen Magic Mobile Media Pvt. Ltd',
+    location: 'Pune',
+    description: `•
+Providing technical design solutions and leading a team for ensuring effective management of UI are aligned with business objectives
+•
+Analyzing existing codebases and recommend refactoring / optimization to enhance stability and maintenance
+•
+Assisting in determining operational feasibility through analysis, problem definition, requirement analysis, and proposing solutions`,
     icon: React.createElement(LaptopMinimalIcon),
-    date: 'Jul 2022 - Present',
+    date: 'Jan 2024 - Sep 2024',
   },
 ] as const;
 
@@ -75,75 +91,71 @@ export const images = {
 
 export const projectsData = [
   {
-    title: 'FileDrive',
+    title: 'MTH',
     description:
-      'A platform for decentralized file storage with robust user management.',
+      'This Webapp is used to dispaly the deatil of Practitioner,Patient,Front Office,Admin that help to Book Appointment,Cancel Appointment,Reshedual Appointment,Patient Health Record,Add Patient,Add Practitioner with validation. The tech stack we used are React,JSX,Taildwind,CSS,HTML,JavaScript,Java,SpringBoot,FHIR,PostgerSQL',
     tags: [
       'React',
       'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
+      'Java',
+      'springBoot',
+      'PYTHON',
+      'TFS',
+      'Node.js',
+      'FHIR',
+      'Microsoft Bot Framework',
+      'Sql',
       'Tailwind',
     ],
-    imageUrl: filedriveImg,
-    link: 'https://github.com/bbyc4kes/file-drive',
+    imageUrl: MTH,
+    link: 'https://github.com/somendrpal',
   },
   {
-    title: 'Portfolio',
-    description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me.`,
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Framer Motion',
-      'Cloudinary',
-      'React Email',
-      'Tailwind',
-    ],
-    imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
+    title: 'CG',
+    description: `CognitiveGuru™ (CG) is an AI based chatbot development platform, built using Microsoft AI and popular opensource technologies to enable enterprises design, build, establish and deploy chatbots in an easy manner.`,
+    tags: ['React', 'Luise', 'Microsoft Bot Framework', 'Tailwind'],
+    imageUrl: Chatbotpage,
+    link: 'https://www.mphasis.com/home/services/cognitive/cognitive-guru-solution/videos/healthcare-provider-registration-on-cg.html',
   },
   {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, and Due Diligence.`,
+    title: 'fhiraa',
+    description: `fhirra is a concept demonstration. It demonstrates the power of conversational virtual assistants, enabled to work over any FHIR system, using a suite of Google technologies. fhiraa accentuates transformation in healthcare services offered by healthcare providers and payers`,
+    tags: ['Dialogflow', 'Lamda Function', 'Google site', 'AI'],
+    imageUrl: Fhiraa,
+    link: 'https://sites.google.com/view/fhiraa',
+  },
+  {
+    title: 'Circket Wepon',
+    description: ` Cricket Weapon, an e-commerce shopping app built using the MERN (MongoDB, Express, React, Node.js) stack and Material-UI (MUI) for the user interface. This project provides both normal user and admin modes, offering a wide range of features to enhance the shopping experience.`,
     tags: [
       'React',
-      'TypeScript',
+      'Node.js',
       'Next.js',
-      'Tailwind',
+      'Express',
       'OpenAI',
       'SCRUM Methodology',
       'End-to-End Development',
     ],
-    imageUrl: auditMasterImg,
-    link: 'https://auditmaster.ai/',
+    imageUrl: projectmanagementImg,
+    link: '',
   },
   {
-    title: 'Surge',
+    title: 'ZOHO Crm tool',
     description:
-      'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
+      'SMS-Magic is a highly-rated Zoho app for all your customer-messaging needs. Install SMS-Magic to communicate with your customers on the channel of their choice - while you stay in the comfort of your Zoho window or smartphone. SMS-Magic is perfect for high-touch, contextual, and time-sensitive customer engagement that is fully compliant.',
     tags: [
       'React',
       'TypeScript',
       'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
+      'SQL',
+      'Javscript',
+      'CICD',
+      'Jenkins',
       'Tailwind',
+      'Gitlab',
     ],
-    imageUrl: surgeImg,
-    link: 'https://github.com/bbyc4kes/surge',
-  },
-  {
-    title: 'CampWithUs',
-    description:
-      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
-    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
-    imageUrl: campwithusImg,
-    link: 'https://github.com/bbyc4kes/campwithus',
+    imageUrl: SMS,
+    link: 'https://app.txtbox.in/app/#/converse-desk',
   },
 ] as const;
 
@@ -151,28 +163,21 @@ export const skillsData = [
   ['JavaScript', '/svgs/javascript-js.svg'],
   ['TypeScript', '/svgs/typescript-icon.svg'],
   ['React', '/svgs/react.svg'],
-  ['Next.js', '/svgs/nextjs.svg'],
   ['Node.js', '/svgs/node-js.svg'],
-  ['Express', '/svgs/express-original.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
-  ['Framer', '/svgs/framer.svg'],
-  ['Shadcn', '/svgs/shadcnui.svg'],
-  ['Headless', '/svgs/brand-headlessui.svg'],
   ['Redux', '/svgs/redux-original.svg'],
-  ['Prisma', '/svgs/file-type-light-prisma.svg'],
-  ['MongoDB', '/svgs/mongodb-original.svg'],
   ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
-  ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
-  ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
-  ['Cloudinary', '/svgs/cloudinary.svg'],
   ['Docker', '/svgs/Docker.svg'],
-  ['Clerk', '/svgs/clerk.svg'],
   ['Axios', '/svgs/axios.svg'],
   ['HTML', '/svgs/file-type-html.svg'],
   ['CSS', '/svgs/file-type-css.svg'],
   ['Sass', '/svgs/Sass.svg'],
-  ['Git', '/svgs/git.svg'],
+  ['GitLab', '/svgs/git.svg'],
   ['GitHub', '/svgs/github.svg'],
+  ['Microsoft Bot Framework', '/images/bot-framework.png'],
+  ['Jenkins', '/images/jenkins.png'],
+  ['CI/CD', '/images/CICD.webp'],
+
   ['', '/svgs/etc.svg'],
 ] as const;
